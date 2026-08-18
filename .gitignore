@@ -1,0 +1,41 @@
+# Virtual Environment
+venv/
+.venv/
+env/
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Secrets
+.env
+.env.*
+.streamlit/secrets.toml
+
+# Private Key Files
+*.key
+*.pem
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Training dataset - not required for deployment
+dataset/
+dataset_split/
+
+# Training scripts - not required for deployment
+check_dataset.py
+predict.py
+split_dataset.py
+train_model.py
+
+# Original YOLO model - not required for deployment
+yolo11n-cls.pt
