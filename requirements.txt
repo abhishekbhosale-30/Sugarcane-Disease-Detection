@@ -1,8 +1,7 @@
 streamlit
-ultralytics
+ultralytics-opencv-headless
 torch
 torchvision
 pillow
 numpy
-opencv-python-headless
 reportlab
